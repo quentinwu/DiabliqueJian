@@ -42,6 +42,8 @@ public class BasicOneTest
     {
         boolean b = true;
         BasicOne basicOne = new BasicOne(b);
+        System.out.printf("%10s%s\n", "", "Hello");
+        System.out.printf("%-10s%s\n", "One", "Hrrop");
         assertTrue(basicOne.getIndicator());
     }
 
