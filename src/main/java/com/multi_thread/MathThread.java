@@ -9,7 +9,7 @@ public class MathThread implements Runnable {
     private String threadName;
     public Thread t;
 
-    MathThread(String tname) {
+    public MathThread(String tname) {
         this.threadName = tname;
         t = new Thread(this, threadName);
         System.out.println(threadName + ": " + t);
