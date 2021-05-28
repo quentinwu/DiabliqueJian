@@ -7,7 +7,7 @@ import java.util.stream.*;
  * Created by quentin on 1/22/2017.
  */
 
-public class StreanDemo {
+public class StreamDemo {
     public static void main(String[] args) {
         ArrayList<Integer> myList = new ArrayList<>();
         for(int i=1; i < 20; i++) {
