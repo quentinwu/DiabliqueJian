@@ -19,6 +19,6 @@ public class PlayWithScanner {
             System.out.println(s1);
             cnt ++;
         }
-
+        System.out.println("I'm done!");
     }
 }
