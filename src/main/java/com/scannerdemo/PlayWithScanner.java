@@ -14,8 +14,7 @@ public class PlayWithScanner {
             if(s1.equals("quit") || s1.equals("exit")) {
                 break;
             }
-            // Trying out the PAT
-            // After running wincred
+            // Operations
             s1 = "I've got " + s1 + " " + cnt;
             System.out.println(s1);
             cnt ++;
