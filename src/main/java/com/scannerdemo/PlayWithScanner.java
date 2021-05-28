@@ -15,6 +15,7 @@ public class PlayWithScanner {
                 break;
             }
             // Trying out the PAT
+            // After running wincred
             s1 = "I've got " + s1 + " " + cnt;
             System.out.println(s1);
             cnt ++;
