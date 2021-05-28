@@ -19,7 +19,7 @@ public class MathThread implements Runnable {
 
     // This is the entry point for the second thread
     public void run() {
-        PrimeNumber pn = new PrimeNumber(2, 10000);
+        PrimeNumber pn = new PrimeNumber(2, 1000);
         System.out.println(threadName + " exiting.");
     }
 }

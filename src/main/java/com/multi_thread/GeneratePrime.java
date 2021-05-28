@@ -9,7 +9,7 @@ public class GeneratePrime {
 
     public static void main(String[] args) {
 
-        int numberOfThreads = 10;
+        int numberOfThreads = 1;
         ArrayList<MathThread> mathThreads = new ArrayList<>();
         long startTime = System.currentTimeMillis();
         for(int i = 0; i < numberOfThreads; i++) {

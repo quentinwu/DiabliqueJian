@@ -23,13 +23,18 @@ public class PrimeNumber {
     }
 
     private void generatePrime() {
+        int cnt = 0;
         for(int i = startWith; i <= endWith; i++) {
-            for(int x = i-1; x > 1; x--) {
-                if(i % x == 0) {
-                    break;
-                }
-                if(x==2) {
-                    System.out.println(i + " is a prime number");
+            String si = String.valueOf(i);
+            if(si.endsWith("1") || si.endsWith("3") || si.endsWith("7") || si.endsWith("9")) {
+                for (int x = i - 1; x > 1; x--) {
+                    if (i % x == 0) {
+                        break;
+                    }
+                    if (x == 2) {
+                        cnt++;
+                        System.out.println(i + " is a prime number " + cnt);
+                    }
                 }
             }
         }
