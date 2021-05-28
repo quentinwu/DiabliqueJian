@@ -1,4 +1,4 @@
-package com.ScannerDemo;
+package com.scannerdemo;
 
 
 import java.util.Scanner;
@@ -14,6 +14,7 @@ public class PlayWithScanner {
                 break;
             }
             //operate
+            // This line is added after iss53 branch is deleted
             s1 = "I've got " + s1;
             System.out.println(s1);
         }
