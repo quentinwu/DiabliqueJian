@@ -15,7 +15,7 @@ public class PlayWithScanner {
                 break;
             }
             //operate
-            s1 = "Got " + s1 + " " + cnt;
+            s1 = "I've got " + s1 + " " + cnt;
             System.out.println(s1);
             cnt ++;
         }
