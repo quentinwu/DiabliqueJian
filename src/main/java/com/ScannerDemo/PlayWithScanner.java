@@ -17,6 +17,7 @@ public class PlayWithScanner {
             s1 = "Got " + s1;
             System.out.println(s1);
         }
+        System.out.println("Program is done.");
 
     }
 }
