@@ -14,7 +14,7 @@ public class PlayWithScanner {
             if(s1.equals("quit") || s1.equals("exit")) {
                 break;
             }
-            //operate
+            // Trying out the PAT
             s1 = "I've got " + s1 + " " + cnt;
             System.out.println(s1);
             cnt ++;
