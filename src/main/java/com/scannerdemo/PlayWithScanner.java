@@ -1,4 +1,4 @@
-package com.ScannerDemo;
+package com.scannerdemo;
 
 
 import java.util.Scanner;
@@ -19,7 +19,6 @@ public class PlayWithScanner {
             System.out.println(s1);
             cnt ++;
         }
-        System.out.println("Program is done.");
 
     }
 }
